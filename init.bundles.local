@@ -1,0 +1,21 @@
+Plug 'mxw/vim-jsx'
+Plug 'flazz/vim-colorschemes'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+Plug 'moll/vim-node'
+Plug 'ervandew/supertab'
+Plug 'digitaltoad/vim-pug'
+Plug 'heavenshell/vim-jsdoc'
+Plug 'easymotion/vim-easymotion'
+Plug 'vim-vdebug/vdebug'
+Plug 'vimwiki/vimwiki'
+Plug 'joshdick/onedark.vim'
+Plug 'sbdchd/neoformat'
+Plug 'ternjs/tern_for_vim'
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'jiangmiao/auto-pairs'
